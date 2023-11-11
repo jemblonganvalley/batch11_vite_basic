@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    button {
+        @apply h-10 bg-orange-500 text-white rounded-md px-3
+    }
+}
